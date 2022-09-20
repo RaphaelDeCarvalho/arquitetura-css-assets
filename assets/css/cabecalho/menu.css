@@ -1,24 +1,24 @@
-.menu-lista{
+.menu__lista{
     display: inline-flex;
     align-items: baseline;
     justify-content: space-around;
 }
-.menu-item {
+.menu__item {
     list-style: none;
     padding: .5rem;
 }
-.menu-link{
+.menu__link{
     text-decoration: none;
     color: #808080;
 }
-.menu-link.ativo {
+.menu__link.ativo {
     color: #333333;
     font-weight: bold;
 }
-.menu-link:hover {
+.menu__link:hover {
     text-decoration: underline;
 }
-.menu-item select{
+.menu__item select{
     border: 0;
     color: #808080;
 }
