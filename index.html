@@ -6,29 +6,42 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Fruta & Fruto</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
         <link href="./assets/css/normalize.css" rel="stylesheet" />
         <link href="./assets/css/reset.css" rel="stylesheet" />
         <link href="./assets/css/style.css" rel="stylesheet" />
         <link href="./assets/css/cabecalho/cabecalho.css" rel="stylesheet" />
         <link href="./assets/css/cabecalho/menu.css" rel="stylesheet" />
+        <link href="./assets/css/chamada/banner.css" rel="stylesheet" />
+        <link href="./assets/css/chamada/chamada.css" rel="stylesheet" />
     </head>
     <body>
         <header class="container">
             <div class="cabecalho">
-                <img class="logo-menu" src="assets/img/logo.jpg" alt="Logo da Fruta e Fruto">
+                <img class="cabecalho__logo" src="assets/img/logo.jpg" alt="Logo da Fruta e Fruto">
                 <nav class="menu" >
-                    <ul class="menu-lista" >
-                        <li class="menu-item" ><a class="menu-link ativo" href="#">início</a></li>
-                        <li class="menu-item" ><a class="menu-link" href="#">receitas</a></li>
-                        <li class="menu-item" ><a class="menu-link" href="#">quem somos</a></li>
-                        <li class="menu-item" >
+                    <ul class="menu__lista" >
+                        <li class="menu__item" ><a class="menu__link ativo" href="#">início</a></li>
+                        <li class="menu__item" ><a class="menu__link" href="#">receitas</a></li>
+                        <li class="menu__item" ><a class="menu__link" href="#">quem somos</a></li>
+                        <li class="menu__item" >
                             <select name="" id="">
-                                <option value=""><a class="menu-link" href="#">comunidade</a></option>
+                                <option value=""><a class="menu__link" href="#">comunidade</a></option>
                             </select>
                         </li>    
                     </ul>
                 </nav>
             </div>
         </header>
+        <section class="banner">
+            <img class="banner__img" alt="Banner da Fruta e Fruto"/>
+            <h2 class="banner__titulo">Reaproveite melhor os alimentos!</h2>
+        </section>
+        <section class="chamada">
+            <h2 class="chamada__titulo" >Receitas para economizar e ganhar saúde</h2>
+            <p class="chamada__subtitulo">Nossas receitas ajudam você a aproveitar melhor os alimentos, economizar, ganhar tempo e praticidade</p>
+        </section>
     </body>
 </html>
