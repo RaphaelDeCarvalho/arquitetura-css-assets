@@ -21,4 +21,5 @@
 .menu__item select{
     border: 0;
     color: #808080;
+    background-color: transparent;
 }
