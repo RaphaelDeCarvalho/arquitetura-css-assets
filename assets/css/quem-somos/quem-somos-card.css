@@ -1,18 +1,18 @@
 .pessoas {
     display: flex;
     justify-content: center;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 .pessoa {
     display: flex;
     flex-direction: column;
-    margin: 3rem;
+    margin: 1rem 3rem 2rem 3rem;
 }
 .pessoa__imagem {
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
     border-radius: 140px;
     margin-bottom: 1rem;
 }
