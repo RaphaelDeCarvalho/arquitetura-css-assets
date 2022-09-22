@@ -10,16 +10,16 @@ header{
 .chamada, .quem-somos {
     padding: 3.5rem;
 }
-.banner__titulo, .chamada__titulo, .quem-somos__titulo{
+.banner__titulo, .chamada__titulo, .quem-somos__titulo, .pessoa__nome{
     font-family: 'Pacifico', cursive;
     font-weight: 400;
 }
-.chamada__titulo, .quem-somos__titulo {
+.chamada__titulo, .quem-somos__titulo, .pessoa__nome {
     color: #8D0606;
     font-size: 3rem;
 }
 
-.chamada__subtitulo, .quem-somos__descricao{
+.chamada__subtitulo, .quem-somos__descricao, .pessoa__funcao{
     font-family: 'Roboto', sans-serif;
     color: #8C8888;
     font-size: 1.6rem;
