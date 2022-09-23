@@ -30,5 +30,7 @@
     padding-bottom: .5rem;
 }
 .pessoa__funcao {
+    color: #595959;
+    text-transform: lowercase;
     font-size: 1.3rem;
 }
