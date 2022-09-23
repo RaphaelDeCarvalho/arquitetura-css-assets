@@ -4,10 +4,7 @@
     position: relative;
 }
 .banner__img{
-    background-image: url('../../img/banner.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url('../../img/banner.jpg') no-repeat center / cover;
     height: calc(100vh - 69px);
     width: 100%;
 }
