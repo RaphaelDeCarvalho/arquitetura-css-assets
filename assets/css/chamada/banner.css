@@ -18,3 +18,8 @@
     transform: translate(-50%, -50%);
     width: 100%;
 }
+@media screen and (min-width: 0px) {
+    .banner__img {
+        height: calc(100vh - 212px);
+    }
+}

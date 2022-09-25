@@ -1,6 +1,13 @@
 .pessoas {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 2rem;
     justify-content: space-around;
+}
+@media screen and (min-width: 0px) {
+    .quem-somos {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
 }

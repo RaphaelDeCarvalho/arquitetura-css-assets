@@ -28,3 +28,12 @@
     text-transform: lowercase;
     font-size: 1.3rem;
 }
+@media screen and (min-width: 0px) {
+    .pessoa {
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+    .pessoa__imagem {
+        margin-bottom: .5rem;
+    }
+}

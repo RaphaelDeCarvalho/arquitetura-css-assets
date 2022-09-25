@@ -1,7 +1,16 @@
-.rodape{
-    display: flex;
-    align-items: center;
-    background-color: #C4C4C4;
-    height: 5rem;
-    justify-content: flex-end;
+@media screen and (min-width: 0px) {
+    .rodape {
+        background-color: #C4C4C4;
+        display: flex;
+        height: 7rem;
+        justify-content: center;
+        align-items: inherit;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .rodape{
+        align-items: center;
+        height: 5rem;
+        justify-content: flex-end;
+    }
 }

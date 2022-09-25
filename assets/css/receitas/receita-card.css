@@ -32,3 +32,9 @@
     cursor: pointer;
     background-color: #620404;
 }
+
+@media screen and (min-width: 0px) {
+    .receita {
+        width: 100%;
+    }
+}
