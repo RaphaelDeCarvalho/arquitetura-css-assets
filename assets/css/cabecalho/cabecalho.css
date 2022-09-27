@@ -6,11 +6,21 @@
         justify-content: center;
         height: 100%;
     }
+    .cabecalho__logo {
+        display: none;
+    }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     .cabecalho {
         flex-direction: row;
         justify-content: space-between;
+    }
+    .cabecalho__logo {
+        display: block;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .cabecalho {
         height: 69px;
     }   
 }

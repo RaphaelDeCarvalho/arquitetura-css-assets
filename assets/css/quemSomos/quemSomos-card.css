@@ -19,21 +19,33 @@
 .pessoa__imagem--andreia {
     background-image: url(/assets/img/pessoas/andreia.jpg);
 }
-.pessoa__nome {
-    font-size: 2rem;
-    padding-bottom: .5rem;
-}
-.pessoa__funcao {
-    color: #595959;
-    text-transform: lowercase;
-    font-size: 1.3rem;
-}
+
 @media screen and (min-width: 0px) {
     .pessoa {
         align-items: center;
-        margin-bottom: 1.5rem;
+        margin: 0 .5rem 1.5rem .5rem;
     }
     .pessoa__imagem {
         margin-bottom: .5rem;
+    }
+    .pessoa__nome {
+        font-size: 1.7rem;
+        padding-bottom: .5rem;
+    }
+    .pessoa__funcao {
+        color: #595959;
+        text-transform: lowercase;
+        font-size: 1.1rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .pessoa {
+        margin-bottom: 1.5rem;
+    }
+    .pessoa__nome {
+        font-size: 2rem;
+    }
+    .pessoa__funcao {
+        font-size: 1.3rem;
     }
 }
